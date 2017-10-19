@@ -1,6 +1,6 @@
 ## The two functions below will take a matrix input (assuming it is invertible) and cache the inverse of that matrix in order to save on processing time and computational power.
 
-## The makeCacheMatrix function outputs a function to set and get the values of the matrix and its inverse. This list is a required input for the following function and allows the input matrix to be changes (via the set function) without rerunning the whole of makeCacheMatrix.
+## The makeCacheMatrix function outputs a function to set and get the values of the matrix and its inverse. This list is a required input for the following function and allows the input matrix to be changed (via the set function) without rerunning the whole of makeCacheMatrix.
 
 makeCacheMatrix <- function(x = matrix()) {
       inverse <- NULL
